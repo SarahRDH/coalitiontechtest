@@ -1,0 +1,93 @@
+/* Images used from online resources with documented links below: */
+
+/* https://www.kcrw.com/news/articles/climate-change-may-mean-less-snow-for-socal-mountains */
+/* https://www.latimes.com/science/la-xpm-2013-jun-14-la-sci-sn-southern-california-snow-20130614-story.html */
+/* https://www.freepik.com/free-photo/forested-mountain-covered-snow-people-hiking-col-de-la-lombarde_11343638.html */
+
+html {
+    font-family: "roboto", "sans-serif";
+}
+
+header {
+    width: 100vw;
+    height: 600px;
+    background-image: url("https://www.dropbox.com/s/qrle75wg5c9hk8r/snow%20mountains.jpeg?raw=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    line-height: 0.2;
+}
+
+svg {
+    align-self: flex-end;
+    padding: 20px;
+}
+
+.gray {
+    color: gray;
+
+}
+.blue {
+    color: navy;
+}
+
+.navtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+    padding-right: 100px;
+}
+
+.navtop img {
+    padding-left: 300px;
+    width: 50vw;
+}
+
+.navmid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+    padding-right: 100px;
+}
+
+.navmid img {
+    padding-left: 300px;
+    width: 50vw;
+}
+
+.history {
+    width: 100vw;
+    height: 600px;
+    background-image: url("https://www.dropbox.com/s/u22zwjkf1o60v75/snowpalms.webp?raw=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.climb {
+    width: 100vw;
+    height: 600px;
+    background-image: url("https://www.dropbox.com/s/9n7mbjjsxez4bsi/forested-mountain-covered-snow-people-hiking-col-de-la-lombarde_181624-23191.jpeg?raw=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .logo {
+    width: 5px;
+} */
+
+.carousel {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+ } 
