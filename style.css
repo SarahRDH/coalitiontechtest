@@ -8,6 +8,11 @@ html {
     font-family: "roboto", "sans-serif";
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 header {
     width: 100vw;
     height: 600px;
@@ -23,11 +28,6 @@ h1 {
     line-height: 0.2;
 }
 
-svg {
-    align-self: flex-end;
-    padding: 20px;
-}
-
 .gray {
     color: gray;
 
@@ -41,13 +41,44 @@ svg {
     justify-content: space-between;
     align-items: center;
     margin: 0px 30px;
-    padding-right: 100px;
+    padding-right: 20px;
 }
 
+
+.navtop, ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;  
+    list-style-type: none; 
+}
+
+.navtop, li {
+    text-decoration: underline;
+    padding: 0px 20px;
+    font-style: italic;   
+}
+
+
+svg {   
+    padding: 20px;
+    display: none;
+}
+
+@media screen only and (max-width: 400px) {
+    svg {
+        display: block;
+    }
+    
+}
+
+   
 .navtop img {
-    padding-left: 300px;
+    padding-left: 150px;
     width: 50vw;
 }
+
+/* end top third of page */
 
 .navmid {
     display: flex;
